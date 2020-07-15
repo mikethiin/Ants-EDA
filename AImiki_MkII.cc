@@ -19,8 +19,7 @@ struct PLAYER_NAME : public Player {
   }
   /**Definicion de funciones auxiliares**/
   typedef vector<vector<int>> Grafo;
-  Grafo g; // 625 son las celdas del tablero y 4 las celdas de alrededor siendo [0]Up, [1]Down,[2]Left,[3]Right
-  // Si g[85][3] = 0 significa que la celda [4][10] no tiene una celda de tierra a su derecha, 1 si sí la tiene.
+  Grafo g;
 
 
  // Inicializa el Grafo
